@@ -26,3 +26,11 @@ I have developed a custom Apache Shiro 1 hashcat module while the official proje
 3. Module is accessible using mode `12150`
 
 Blog post covering all of this coming soon!
+
+## CVE-2024-4956
+
+A script to automate exploiting `CVE-2024-4956`, a path traversal vulnerability in Sonatype Repository 3 allowing unauthenticated attackers to read system files is available [here](https://github.com/fin3ss3g0d/CVE-2024-4956). Sonatype Repository 3 uses the Apache Shiro 1 hashing algorithm at the time of writing and stores user hashes inside of OrientDB .pcl files. A sample of 155 known OrientDB .pcl existing file paths are included in the repository.
+
+## Disclaimer
+
+This program is intended for legitimate and authorized purposes only. The author holds no responsibility or liability for misuse of this project.
