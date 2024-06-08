@@ -25,11 +25,15 @@ I have developed a custom Apache Shiro 1 hashcat module while the official proje
 2. Build it from source
 3. Module is accessible using mode `12150`
 
-Blog post covering all of this coming soon!
+I have submitted a [pull request](https://github.com/hashcat/hashcat/pull/4017) to the official Hashcat project, hopefully it will get merged and the module will be available via the official Hashcat repository! Blog post covering all of this coming soon!
 
 ## CVE-2024-4956
 
 A script to automate exploiting `CVE-2024-4956`, a path traversal vulnerability in Sonatype Repository 3 allowing unauthenticated attackers to read system files is available [here](https://github.com/fin3ss3g0d/CVE-2024-4956). Sonatype Repository 3 uses the Apache Shiro 1 hashing algorithm at the time of writing and stores user hashes inside of OrientDB .pcl files. A sample of 155 known OrientDB .pcl existing file paths are included in the repository.
+
+## Shiro1Tools
+
+This repository contains useful tools that were used when creating the Hashcat module for Apache Shiro 1 such as a standalone `C` program that cracks Apache Shiro 1 hashes using OpenSSL and a `Java` application for generating Apache Shiro 1 hashes.
 
 ## Disclaimer
 
