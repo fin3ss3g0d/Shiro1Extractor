@@ -33,7 +33,7 @@ A script to automate exploiting `CVE-2024-4956`, a path traversal vulnerability 
 
 ## Shiro1Tools
 
-This repository contains useful tools that were used when creating the Hashcat module for Apache Shiro 1 such as a standalone `C` program that cracks Apache Shiro 1 hashes using OpenSSL and a `Java` application for generating Apache Shiro 1 hashes.
+[This repository](https://github.com/fin3ss3g0d/Shiro1Tools) contains useful tools that were used when creating the Hashcat module for Apache Shiro 1 such as a standalone `C` program that cracks Apache Shiro 1 hashes using OpenSSL and a `Java` application for generating Apache Shiro 1 hashes.
 
 ## Disclaimer
 
